@@ -15,7 +15,7 @@
         
         var delay = time_to_logout - +(new Date);
         timeout = window.setTimeout(function () {
-            window.location = STUDIP.URLHelper.getURL('index.php');
+            window.location = STUDIP.URLHelper.getURL('logout.php');
         }, delay);
 
         if (notify) {
